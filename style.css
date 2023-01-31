@@ -11,6 +11,11 @@ html, body {
 #calculatorButtons {
       height: 100%;
 }
+.button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
 #row1, #row2, #row3 {
       height: 25%;
 }
