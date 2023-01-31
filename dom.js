@@ -38,9 +38,11 @@ $(masterDiv).on('click', function (event) {
             // empty the store array
             store = [];
             
-            // if the user clicks 'clear' empty all storage variables
+            $(answer_element).text(symbol)
+            // if the user clicks 'clear' empty all storage variables and the answer_element text
       } else if(elVal === 'clear') {
             clearLocalStorage()
+            store = []
             answer_element.text('')
 
             // if the user clicks the equal sign
@@ -59,8 +61,17 @@ $(masterDiv).on('click', function (event) {
             if(symbol === '-') {
                   let x = firstVal - secondVal
                   $(answer_element).text(x)
+            } else if(symbol === '*') {
+                  let x = firstVal * secondVal
+                  $(answer_element).text(x)
+            } else if(symbol === '+') {
+                  let x = firstVal += secondVal
+                  $(answer_element).text(x)
             }
       } else {
+            // if user clicks on a number save that number in sequence to the store array
             store.push(elVal)
+            let currVal = store.join('')
+            $(answer_element).text(currVal)
       }
 })
