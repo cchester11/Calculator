@@ -4,24 +4,15 @@ html, body {
 #masterDiv {
       position: absolute;
       height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
 }
 #calculatorHeader {
-      position:relative;
       height: 25%;
-      width: 100%;
 }
 #calculatorButtons {
-      position: relative;
-      margin-top: 2px;
-      height: 75%;
-      width: 100%;
+      height: 100%;
 }
 #row1, #row2, #row3 {
       height: 25%;
-      width: 100%;
 }
 
 
