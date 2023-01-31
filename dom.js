@@ -1,0 +1,1 @@
+const buttonsDiv = $('#calculatorButtons')
