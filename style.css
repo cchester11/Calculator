@@ -12,9 +12,13 @@ html, body {
       height: 100%;
 }
 .button {
+      border: 1px;
+      border-color: black;
+      border-style: double;
       display: flex;
       justify-content: center;
       align-items: center;
+      font-size: larger;
 }
 #row1, #row2, #row3 {
       height: 25%;
