@@ -1,9 +1,12 @@
 html, body {
       overflow: hidden;
+      display: flex;
+      justify-content: center;
 }
 #masterDiv {
       position: absolute;
       height: 100%;
+      width: 75%;
 }
 #calculatorHeader {
       height: 25%;
