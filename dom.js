@@ -65,7 +65,9 @@ $(masterDiv).on('click', function (event) {
                   let x = firstVal * secondVal
                   $(answer_element).text(x)
             } else if(symbol === '+') {
-                  let x = firstVal += secondVal
+                  let a = Number(firstVal)
+                  let b = Number(secondVal)
+                  let x = a + b
                   $(answer_element).text(x)
             }
       } else {
