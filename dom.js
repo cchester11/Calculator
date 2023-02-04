@@ -59,10 +59,14 @@ $(masterDiv).on('click', function (event) {
             
             // conditional statments for what equation to perform
             if(symbol === '-') {
-                  let x = firstVal - secondVal
+                  let a = Number(firstVal)
+                  let b = Number(secondVal)
+                  let x = a - b
                   $(answer_element).text(x)
             } else if(symbol === '*') {
-                  let x = firstVal * secondVal
+                  let a = Number(firstVal)
+                  let b = Number(secondVal)
+                  let x = a * b
                   $(answer_element).text(x)
             } else if(symbol === '+') {
                   let a = Number(firstVal)
