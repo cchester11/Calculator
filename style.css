@@ -1,5 +1,5 @@
 html, body {
-      overflow: hidden;
+      overflow: scroll;
       display: flex;
       justify-content: center;
 }
@@ -7,9 +7,6 @@ html, body {
       position: absolute;
       height: 100%;
       width: 75%;
-}
-#calculatorHeader {
-      height: 25%;
 }
 #calculatorButtons {
       height: 100%;
@@ -23,8 +20,8 @@ html, body {
       align-items: center;
       font-size: larger;
 }
-#row1, #row2, #row3 {
-      height: 25%;
+#calculatorHeader, #row1, #row2, #row3, #row4 {
+      height: 20%;
 }
 
 
